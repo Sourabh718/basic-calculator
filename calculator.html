@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>calculator</title>
+ <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="margin"></div>
+   <div class="border-page">
+   <input type="text" name="" id="display" class="calc1" readonly>
+   <br><br>
+   <div class="calc2">
+       <button class="space" onclick="clearDisplay()">C</button>
+
+      <button class="space" onclick="calcValue('(')">(</button>
+      
+      <button class="space" onclick="calcValue(')')">)</button>
+
+       <button class="space" onclick="cross()">⌫</button>
+
+       <button class="space" onclick="calcValue('1');">1</button>
+
+       <button class="space" onclick="calcValue('2')">2</button> 
+
+       <button class="space" onclick="calcValue('3');">3</button>
+       
+       <button class="space" onclick="calcValue('+');">+</button>
+
+       <button class="space" onclick="calcValue('4')">4</button>
+
+       <button class="space" onclick="calcValue('5');">5</button>
+
+       <button class="space" onclick="calcValue('6');">6</button>
+
+       <button class="space" onclick="calcValue('-');">-</button>
+
+       <button class="space" onclick="calcValue('7');">7</button>
+
+       <button class="space" onclick="calcValue('8');">8</button>
+
+       <button class="space" onclick="calcValue('9');">9</button>
+
+       <button class="space" onclick="calcValue('/');">/</button>
+       
+       <button class="space" onclick="calcValue('.')">.</button>
+
+       <button class="space" onclick="calcValue('0');">0</button>
+       
+       <button class="space" onclick="showResult();">=</button>
+
+       <button class="space" onclick="calcValue('*');">*</button>
+       
+       </div>                  
+   </div>
+
+   <script src="calculator.js">
+    
+    </script>
+</body>
+</html>
